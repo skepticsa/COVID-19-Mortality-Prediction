@@ -10,6 +10,12 @@
 
 During COVID‑19 surges, triage decisions had to be made quickly with limited information. This project studies whether standard tabular ML methods can help identify patients at higher mortality risk **at the first point of assessment**, complementing clinical judgment. It uses a public, de‑identified dataset and emphasizes transparency, calibration, and clear limitations.
 
+### Domain Background
+
+COVID‑19 strained emergency and inpatient services worldwide, making rapid, objective triage essential for allocating scarce resources such as telemetry beds and ICU capacity. Early mortality risk prediction at the first point of assessment can focus clinician attention on the most vulnerable patients, complementing clinical judgment when time and information are limited. Reputable clinical guidance emphasizes early risk stratification and notes substantially higher mortality among older adults and patients with pre‑existing conditions (e.g., diabetes, cardiovascular disease, chronic lung disease, immunosuppression, and obesity). In this educational project, I study a data‑driven mortality risk model, using a public, de‑identified dataset to explore how tabular machine‑learning methods might surface patterns useful for triage research—without making clinical claims or handling PHI.
+
+**Personal motivation**. In early 2021, I spent three months hospitalized with COVID‑19, including an ICU stay with intubation. That experience motivates me to explore careful, ethical use of data science to characterize mortality risk, strictly for learning and discussion—not for clinical deployment.
+
 ---
 
 ## 2) Problem Statement
