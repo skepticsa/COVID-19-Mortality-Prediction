@@ -57,18 +57,20 @@ Because the positive class (death) is a minority, **PR‑AUC (average precision)
 
 ## 6) Repository Structure
 
+<pre>
 .
-├── data/                          # local data (not tracked)
-├── images/                        # generated plots/figures (incl. pipeline_dag.png)
-├── pipeline/                      # SageMaker Pipelines code (definition & steps)
-├── COVID-19-Mortality-Prediction.ipynb   # EDA + local training + evaluation
-├── inference.py                   # local/remote inference helper
-├── feature_columns.txt            # expected feature order/selection
-├── endpoint_name.txt              # optional: SageMaker endpoint name
-├── requirements.txt               # Python dependencies
-├── proposal.pdf                   # project proposal (see summary below)
-├── LICENSE                        # MIT license
-└── README.md                      # this file
+├── data/
+├── images/
+├── pipeline/
+├── COVID-19-Mortality-Prediction.ipynb
+├── inference.py
+├── feature_columns.txt
+├── endpoint_name.txt
+├── requirements.txt
+├── proposal.pdf
+├── LICENSE
+└── README.md
+</pre>
 
 ---
 
