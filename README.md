@@ -51,7 +51,6 @@ Because the positive class (death) is a minority, **PR‑AUC (average precision)
 
 ## 6) Repository Structure
 
-```text
 .
 ├── data/                          # local data (not tracked)
 ├── images/                        # generated plots/figures (incl. pipeline_dag.png)
