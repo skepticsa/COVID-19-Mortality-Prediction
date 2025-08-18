@@ -1,0 +1,24 @@
+# Core Data Science
+numpy==1.26.4
+pandas==2.0.3
+python-dateutil
+pytz
+scipy
+numexpr
+httpx
+
+# PyTorch
+torch>=2.0.0
+torchvision>=0.15.0
+
+# AutoGluon (the [all] version includes the base, so only one line is needed)
+autogluon.tabular[all]==1.1.1
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# AWS
+sagemaker
+boto3
